@@ -8,7 +8,7 @@ Customer Data Generation: Simulates random customer data with geographic coordin
 Clustering by Time Slot and Location: Clusters customers based on both time-slot preferences and geographic proximity to streamline delivery scheduling and reduce travel distance.
 
 
-Optimized Delivery Routes: Finds efficient delivery paths within each customer cluster, minimizing travel time, fuel usage, and operational costs.
+Optimized Delivery Routes: shows different paths available that can be used by various algorithms to find the efficent path.
 
 Real-Time Travel Time Data Integration: Uses OpenRouteService API to fetch travel times between locations, ensuring route optimization reflects real-world conditions.
 Project Overview
@@ -18,5 +18,4 @@ Simulate Customer Data: Generates customer details such as location (latitude an
 
 Customer Clustering: Groups customers based on their location and selected time slots using K-Means clustering, ensuring deliveries are grouped logically by area and timing.
 
-Route Optimization: Calculates optimal delivery routes within each cluster, using travel-time data to minimize distances and wait times for each cluster.
-Visualization: Visualizes customer locations, clusters, and optimized routes to provide a clear, visual representation of the delivery paths.
+
